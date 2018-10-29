@@ -1,0 +1,140 @@
+/*
+GLOBAL
+*/
+
+.heading-site{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.COLORED{
+    height: 125px;
+    width: 250px;
+    background-color: #34495e;
+   
+    text-align: center;
+}
+.text{
+    margin-top: 40px;
+}
+
+
+/*
+HEADER
+*/
+
+
+	
+
+  
+  
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rbga(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.nav-up{
+    top: 70px;
+}
+.header .header-logo {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a {
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+.header .header-menu a:hover {
+    color: #2980b9;
+}
+.icon{
+    animation: superanimation 10s;
+       float: left-right;
+       height: 100px;
+       width: 100px;
+     
+   }
+
+   @keyframes superanimation
+   { 0% { transform: translateX(0px); }
+   50% { transform: translateX(150px) rotate(180deg); }
+   100% { transform: translateX(0px) rotate(0deg); }
+   }
+/* BANNER
+*/
+.banner {
+    margin-top: -20px;
+    position: relative;
+    height: 50%;
+}
+
+.banner-image{
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+}
+
+.banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+}
+
+.banner-content h1,
+.banner-content h2{
+    background-color: rbga(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+
+   
+/*
+ABOUT
+*/
+.about .about-single-element .icon {
+    font-size: 30px;
+    text-align: center;
+
+}
+.about .about-single-element {
+    text-align: center;
+}
+.about .about-single-element p{
+    text-align: left;
+    margin-top: 20px;
+}
+/*
+FOOTER
+*/
+.footer .footer-informations {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.footer .footer-informations ul{
+    padding: 0;
+}
+.footer .footer-informations ul li{
+    display: inline; 
+    list-style-type: none;
+    margin-left: 45px;
+}
+.own-modal {
+    padding-top: 120px;
+   
+}    
+    
+    .copyrighttext {
+        color: #DCDCDC;
+        text-align: center;
+        margin: 30px;
+    }
